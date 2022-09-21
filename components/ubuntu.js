@@ -12,7 +12,7 @@ export default class Ubuntu extends Component {
 			screen_locked: true,
 			bg_image_name: 'wall-2',
 			booting_screen: true,
-			shutDownScreen: true
+			shutDownScreen: false
 		};
 	}
 
