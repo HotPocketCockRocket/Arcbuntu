@@ -14,12 +14,7 @@ function BootingScreen(props) {
             <div className="text-white mb-4">
             </div>
         </div>
-       <audio id="audio" src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"></audio>
-        <script>       function play() {
-        var audio = document.getElementById("audio");
-        audio.play();
-      }
-</script>
+       <audio autoplay src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"></audio>
     )
 };
 export default BootingScreen
