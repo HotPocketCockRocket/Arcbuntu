@@ -15,12 +15,11 @@ function BootingScreen(props) {
             </div>
         </div>
        <audio id="audio" src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"></audio>
-    )
-};
-
-      function play() {
+        <script>       function play() {
         var audio = document.getElementById("audio");
         audio.play();
       }
-
+</script>
+    )
+};
 export default BootingScreen
