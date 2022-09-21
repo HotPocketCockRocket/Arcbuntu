@@ -28,9 +28,9 @@ export default function Meta() {
             <meta itemProp="image" content="images/logos/fevicon.png" />
             /* Twitter */
             <meta name="twitter:card" content="summary" />
-            <meta name="twitter:title" content="Vivek Patel Portfolio - Computer Engineering Student" />
+            <meta name="twitter:title" content="Ubuntu 20.04" />
             <meta name="twitter:description"
-                content="Vivek Patel's (vivek9patel) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
+                content="Ubuntu 20.4 built in Next.js and Tailwind CSS." />
             <meta name="twitter:site" content="vivek9patel" />
             <meta name="twitter:creator" content="vivek9patel" />
             <meta name="twitter:image:src" content="images/logos/logo_1024.png" />
