@@ -7,9 +7,9 @@ export default function Meta() {
            /* Primary Meta Tags */
             <title>Vivek Patel Portfolio - Computer Engineering Student</title>
             <meta charSet="utf-8" />
-            <meta name="title" content="Vivek Patel Portfolio - Computer Engineering Student" />
+            <meta name="title" content="Ubuntu 20.04" />
             <meta name="description"
-                content="Vivek Patel's (vivek9patel) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
+                content="Ubuntu 20.04 built in Next.js and Tailwind CSS." />
             <meta name="author" content="Vivek Patel (vivek9patel)" />
             <meta name="keywords"
                 content="vivek9patel, vivek9patel's portfolio, vivek9patel linux, ubuntu portfolio, vivek patel protfolio,vivek patel computer, vivek patel, vivek ubuntu, vivek patel ubuntu portfolio" />
