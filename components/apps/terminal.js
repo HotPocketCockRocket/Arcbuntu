@@ -201,9 +201,7 @@ export class Terminal extends Component {
                     action: "lol",
                 });
 
-                result = "<p> ah ah ah, you didn't say the magic word.</p> <br><img class=' w-2/5' src='./images/memes/nedry.gif' />
-                    <audio id="magic-word" preload="true" src="./images/memes/magicword.mp3" loop="loop"></audio>
-                    onload = function() { document.getElementById("magic-word").play()";
+                result = "<p> ah ah ah, you didn't say the magic word.</p> <br><img class=' w-2/5' src='./images/memes/nedry.gif' />";
                     break;
                 }
 
