@@ -9,10 +9,10 @@ export default class Ubuntu extends Component {
 	constructor() {
 		super();
 		this.state = {
-			screen_locked: false,
+			screen_locked: true,
 			bg_image_name: 'wall-2',
 			booting_screen: true,
-			shutDownScreen: false
+			shutDownScreen: true
 		};
 	}
 
