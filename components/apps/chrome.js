@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 export class Chrome extends Component {
     constructor() {
         super();
-        this.home_url = 'https://www.google.com/webhp?igu=1';
+        this.home_url = 'https://beamng.com';
         this.state = {
-            url: 'https://www.google.com/webhp?igu=1',
-            display_url: "https://www.google.com",
+            url: 'https://beamng.com',
+            display_url: "https://beamng.com",
         }
     }
 
@@ -28,7 +28,7 @@ export class Chrome extends Component {
     }
 
     goToHome = () => {
-        this.setState({ url: this.home_url, display_url: "https://www.google.com" });
+        this.setState({ url: this.home_url, display_url: "https://beamng.com" });
         this.refreshChrome();
     }
 
