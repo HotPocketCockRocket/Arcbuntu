@@ -29,7 +29,7 @@ const apps = [
     },
     {
         id: "about-vivek",
-        title: "About Vivek",
+        title: "About Dad",
         icon: './themes/Yaru/system/user-home.png',
         disabled: false,
         favourite: true,
@@ -38,7 +38,7 @@ const apps = [
     },
     {
         id: "vscode",
-        title: "Visual Studio Code",
+        title: "MDT",
         icon: './themes/Yaru/apps/vscode.png',
         disabled: false,
         favourite: true,
