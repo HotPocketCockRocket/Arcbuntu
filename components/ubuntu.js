@@ -24,6 +24,7 @@ export default class Ubuntu extends Component {
 		setTimeout(() => {
 			this.setState({ booting_screen: false });
 		}, 2000);
+		this.setState({ screen_locked: true });
 	};
 
 	getLocalData = () => {
@@ -36,7 +37,7 @@ export default class Ubuntu extends Component {
 		let booting_screen = localStorage.getItem('booting_screen');
 		if (booting_screen !== null && booting_screen !== undefined) {
 			// user has visited site before
-			this.setState({ booting_screen: false });
+			this.setState({ booting_screen: true });
 		} else {
 			// user is visiting site for the first time
 			localStorage.setItem('booting_screen', false);
