@@ -22,9 +22,9 @@ export default function Meta() {
             /* Search Engine */
             <meta name="image" content="images/logos/fevicon.png" />
             /* Schema.org for Google */
-            <meta itemProp="name" content="Vivek Patel Portfolio - Computer Engineering Student" />
+            <meta itemProp="name" content="Ubuntu 20.04" />
             <meta itemProp="description"
-                content="Vivek Patel's (vivek9patel) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
+                content="Ubuntu 20.04 built in Next.js and Tailwind CSS." />
             <meta itemProp="image" content="images/logos/fevicon.png" />
             /* Twitter */
             <meta name="twitter:card" content="summary" />
@@ -35,9 +35,9 @@ export default function Meta() {
             <meta name="twitter:creator" content="vivek9patel" />
             <meta name="twitter:image:src" content="images/logos/logo_1024.png" />
             /* Open Graph general (Facebook, Pinterest & Google+) */
-            <meta name="og:title" content="Vivek Patel Portfolio - Computer Engineering Student" />
+            <meta name="og:title" content="Ubuntu 20.04" />
             <meta name="og:description"
-                content="Vivek Patel's (vivek9patel) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
+                content="Ubuntu 20.04 built in Next.js and Tailwind CSS." />
             <meta name="og:image" content="images/logos/logo_1200.png" />
             <meta name="og:url" content="http://vivek9patel.github.io/" />
             <meta name="og:site_name" content="Vivek Patel Personal Portfolio" />
