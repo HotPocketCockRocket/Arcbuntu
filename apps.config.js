@@ -39,7 +39,7 @@ const apps = [
     {
         id: "vscode",
         title: "MDT",
-        icon: './themes/Yaru/apps/vscode.png',
+        icon: './themes/Yaru/apps/sheriff.png',
         disabled: false,
         favourite: true,
         desktop_shortcut: false,
