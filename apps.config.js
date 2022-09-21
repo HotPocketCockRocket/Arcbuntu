@@ -5,7 +5,6 @@ import { displaySettings } from './components/apps/settings';
 import { displayChrome } from './components/apps/chrome';
 import { displayTrash } from './components/apps/trash';
 import { displayGedit } from './components/apps/gedit';
-import { displayAboutVivek } from './components/apps/vivek';
 import { displayTerminalCalc } from './components/apps/calc';
 
 const apps = [
@@ -80,15 +79,6 @@ const apps = [
         favourite: false,
         desktop_shortcut: true,
         screen: displayTrash,
-    },
-    {
-        id: "gedit",
-        title: "Contact Me",
-        icon: './themes/Yaru/apps/gedit.png',
-        disabled: false,
-        favourite: false,
-        desktop_shortcut: true,
-        screen: displayGedit,
     },
 ]
 
