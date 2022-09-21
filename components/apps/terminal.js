@@ -195,7 +195,7 @@ export class Terminal extends Component {
                 }
 
                 if (rest === "personal-documents") {
-                    result = `bash /${this.curr_dir_name} : Ah, Ah, Ah, You didn't say the magic word`, "<img class=' w-2/5' src='./images/memes/used-sudo-command.webp' />";
+                    result = `bash /${this.curr_dir_name} : Ah, Ah, Ah, You didn't say the magic word <img class=' w-2/5' src='./images/memes/used-sudo-command.webp' />`,;
                     break;
                 }
 
