@@ -5,7 +5,7 @@ export default function Meta() {
     return (
         <Head>
            /* Primary Meta Tags */
-            <title>Vivek Patel Portfolio - Computer Engineering Student</title>
+            <title>Ubuntu 20.04</title>
             <meta charSet="utf-8" />
             <meta name="title" content="Ubuntu 20.04" />
             <meta name="description"
