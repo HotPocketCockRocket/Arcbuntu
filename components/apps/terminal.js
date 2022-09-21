@@ -12,13 +12,14 @@ export class Terminal extends Component {
         this.prev_commands = [];
         this.commands_index = -1;
         this.child_directories = {
-            root: ["personal-documents", "skills", "languages", "interests"],
+            root: ["personal-documents", "skills", "languages", "interests", "info"],
             PDPU: ["Sem-6"],
             books: ["Eric-Jorgenson_The-Almanack-of-Naval-Ravikant.pdf", "Elon Musk: How the Billionaire CEO of SpaceX.pdf", "The $100 Startup_CHRIS_GUILLEBEAU.pdf", "The_Magic_of_Thinking_Big.pdf"],
             skills: ["Front-end development", "React.js", "jQuery", "HTML5", "CSS"],
             projects: ["vivek9patel-personal-portfolio", "synonyms-list-react", "economist.com-unlocked", "Improve-Codeforces", "flutter-banking-app", "Meditech-Healthcare", "CPU-Scheduling-APP-React-Native"],
             interests: ["Software Engineering", "Web Design", "Application Management"],
             languages: ["Javascript", "HTML5"],
+            info: ["This project is a placeholder for the real terminal, when it is eventually implemented."],
         };
         this.state = {
             terminal: [],
