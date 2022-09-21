@@ -102,9 +102,10 @@ export default class Ubuntu extends Component {
 	turnOn = () => {
 		ReactGA.pageview('/desktop');
 
-		this.setState({ shutDownScreen: false, booting_screen: true, screen_locked: true });
+		this.setState({ shutDownScreen: false, booting_screen: true });
 		this.setTimeOutBootScreen();
 		localStorage.setItem('shut-down', false);
+		this.setState({ screen_locked: true });
 	};
 
 	render() {
