@@ -11,10 +11,10 @@ function BootingScreen(props) {
                     : <img width="40px" height="40px" className={" w-10 " + (props.visible ? " animate-spin " : "")} src="./themes/Yaru/status/process-working-symbolic.svg" alt="Ubuntu Process Symbol" />)}
             </div>
             <img width="200px" height="100px" className="md:w-1/5 w-1/2" src="./themes/Yaru/status/ubuntu_white_hex.svg" alt="Ubuntu Name" />
+                
             <div className="text-white mb-4">
             </div>
         </div>
-       <audio autoplay src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"></audio>
     )
 };
 export default BootingScreen
