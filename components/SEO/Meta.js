@@ -5,9 +5,9 @@ export default function Meta() {
     return (
         <Head>
            /* Primary Meta Tags */
-            <title>Ubuntu 20.04</title>
+            <title>Arcbuntu 10.02</title>
             <meta charSet="utf-8" />
-            <meta name="title" content="Arcbuntu 20.04" />
+            <meta name="title" content="Arcbuntu 20.02" />
             <meta name="description"
                 content="Ubuntu 20.04 built in Next.js and Tailwind CSS." />
             <meta name="author" content="Vivek Patel (vivek9patel)" />
